@@ -12,17 +12,37 @@ namespace Solution.Database.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "City",
+                name: "Location",
                 columns: table => new
                 {
-                    PostalCode = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LocationId = table.Column<long>(type: "bigint", nullable: false)
+                    PublicPlace = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Adress = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_City", x => x.PostalCode);
+                    table.PrimaryKey("PK_Location", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "City",
+                columns: table => new
+                {
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    PostalCode = table.Column<long>(type: "bigint", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    LocationEntityId = table.Column<long>(type: "bigint", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_City", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_City_Location_LocationEntityId",
+                        column: x => x.LocationEntityId,
+                        principalTable: "Location",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -39,25 +59,10 @@ namespace Solution.Database.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Competition", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Location",
-                columns: table => new
-                {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    PublicPlace = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Adress = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CompetitionId = table.Column<long>(type: "bigint", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Location", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Location_Competition_CompetitionId",
-                        column: x => x.CompetitionId,
-                        principalTable: "Competition",
+                        name: "FK_Competition_Location_LocationId",
+                        column: x => x.LocationId,
+                        principalTable: "Location",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -125,19 +130,20 @@ namespace Solution.Database.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_City_LocationId",
+                name: "IX_City_LocationEntityId",
                 table: "City",
-                column: "LocationId");
+                column: "LocationEntityId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_City_Name",
+                table: "City",
+                column: "Name",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Competition_LocationId",
                 table: "Competition",
                 column: "LocationId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Location_CompetitionId",
-                table: "Location",
-                column: "CompetitionId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Member_TeamId",
@@ -153,31 +159,11 @@ namespace Solution.Database.Migrations
                 name: "IX_Team_CompetitionId",
                 table: "Team",
                 column: "CompetitionId");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_City_Location_LocationId",
-                table: "City",
-                column: "LocationId",
-                principalTable: "Location",
-                principalColumn: "Id",
-                onDelete: ReferentialAction.Cascade);
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Competition_Location_LocationId",
-                table: "Competition",
-                column: "LocationId",
-                principalTable: "Location",
-                principalColumn: "Id",
-                onDelete: ReferentialAction.Cascade);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Competition_Location_LocationId",
-                table: "Competition");
-
             migrationBuilder.DropTable(
                 name: "City");
 
@@ -191,10 +177,10 @@ namespace Solution.Database.Migrations
                 name: "Team");
 
             migrationBuilder.DropTable(
-                name: "Location");
+                name: "Competition");
 
             migrationBuilder.DropTable(
-                name: "Competition");
+                name: "Location");
         }
     }
 }

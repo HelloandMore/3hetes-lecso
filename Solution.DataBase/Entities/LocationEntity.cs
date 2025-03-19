@@ -14,8 +14,5 @@ public class LocationEntity
     [Required]
     public string Adress { get; set; }
 
-    [ForeignKey("Competition")]
-    public uint CompetitionId { get; set; }
-    public virtual CompetitionEntity Competition { get; set; }
-
+    public virtual ICollection<CityEntity> Cities { get; set; }
 }

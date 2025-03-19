@@ -12,8 +12,8 @@ using Solution.DataBase;
 namespace Solution.Database.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250319083327_init")]
-    partial class init
+    [Migration("20250319191452_city")]
+    partial class city
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,22 +27,28 @@ namespace Solution.Database.Migrations
 
             modelBuilder.Entity("Solution.Database.Entities.CityEntity", b =>
                 {
-                    b.Property<long>("PostalCode")
+                    b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("PostalCode"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<long>("LocationId")
+                    b.Property<long?>("LocationEntityId")
                         .HasColumnType("bigint");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("PostalCode");
+                    b.Property<long>("PostalCode")
+                        .HasColumnType("bigint");
 
-                    b.HasIndex("LocationId");
+                    b.HasKey("Id");
+
+                    b.HasIndex("LocationEntityId");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
 
                     b.ToTable("City");
                 });
@@ -90,16 +96,11 @@ namespace Solution.Database.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("CompetitionId")
-                        .HasColumnType("bigint");
-
                     b.Property<string>("PublicPlace")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CompetitionId");
 
                     b.ToTable("Location");
                 });
@@ -183,13 +184,9 @@ namespace Solution.Database.Migrations
 
             modelBuilder.Entity("Solution.Database.Entities.CityEntity", b =>
                 {
-                    b.HasOne("Solution.Database.Entities.LocationEntity", "Location")
-                        .WithMany()
-                        .HasForeignKey("LocationId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Location");
+                    b.HasOne("Solution.Database.Entities.LocationEntity", null)
+                        .WithMany("Cities")
+                        .HasForeignKey("LocationEntityId");
                 });
 
             modelBuilder.Entity("Solution.Database.Entities.CompetitionEntity", b =>
@@ -201,17 +198,6 @@ namespace Solution.Database.Migrations
                         .IsRequired();
 
                     b.Navigation("Location");
-                });
-
-            modelBuilder.Entity("Solution.Database.Entities.LocationEntity", b =>
-                {
-                    b.HasOne("Solution.Database.Entities.CompetitionEntity", "Competition")
-                        .WithMany()
-                        .HasForeignKey("CompetitionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Competition");
                 });
 
             modelBuilder.Entity("Solution.Database.Entities.MemberEntity", b =>
@@ -252,6 +238,11 @@ namespace Solution.Database.Migrations
                     b.Navigation("Refs");
 
                     b.Navigation("Teams");
+                });
+
+            modelBuilder.Entity("Solution.Database.Entities.LocationEntity", b =>
+                {
+                    b.Navigation("Cities");
                 });
 
             modelBuilder.Entity("Solution.Database.Entities.TeamEntity", b =>
