@@ -2,5 +2,5 @@
 
 public interface IObjectValidator<TKey>
 {
-	TKey Id { get; }
+  TKey Id { get; set; }
 }

@@ -1,41 +1,47 @@
-﻿namespace Solution.DataBase;
+﻿using Solution.Database.Entities;
 
-public class AppDbContext() : DbContext
+namespace Solution.DataBase;
+
+public class AppDbContext : DbContext
 {
-	private static string connectionString = string.Empty;
+    private static string connectionString = string.Empty;
 
-	static AppDbContext()
-	{
-		connectionString = GetConnectionString();
-	}
+    public DbSet<CompetitionEntity> Competitions { get; set; }
 
-	protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-	{
-		ArgumentNullException.ThrowIfNull(connectionString);
+    public DbSet<LocationEntity> Locations { get; set; }
 
-		base.OnConfiguring(optionsBuilder);
+    public DbSet<RefEntity> Refs { get; set; }
 
-		optionsBuilder.UseSqlServer(connectionString);
-	}
+    public DbSet<TeamEntity> Teams { get; set; }
 
-	private static string GetConnectionString()
-	{
+    static AppDbContext()
+    {
+        connectionString = GetConnectionString();
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        ArgumentNullException.ThrowIfNull(connectionString);
+
+        base.OnConfiguring(optionsBuilder);
+
+        optionsBuilder.UseSqlServer(connectionString);
+    }
+
+    private static string GetConnectionString()
+    {
 #if DEBUG
-		var file = "connectionString.Development.json";
+        var file = "appSettings.Development.json";
 #else
-        var file = "connectionString.Production.json";
+            var file = "connectionString.Production.json";
 #endif
+        var stream = new MemoryStream(File.ReadAllBytes($"{file}"));
 
-		var assembly = typeof(AppDbContext).GetTypeInfo().Assembly;
-		var assemblyName = assembly.GetName().Name.Replace(" ", "_");
+        var config = new ConfigurationBuilder()
+                    .AddJsonStream(stream)
+                    .Build();
 
-		var stream = assembly.GetManifestResourceStream($"{assemblyName}.{file}");
-
-		var config = new ConfigurationBuilder()
-					.AddJsonStream(stream)
-					.Build();
-
-		var connectionStirng = config.GetValue<string>("SqlConnectionString");
-		return connectionStirng;
-	}
+        var cs = config.GetValue<string>("SqlConnectionString");
+        return cs;
+    }
 }
