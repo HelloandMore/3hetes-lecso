@@ -4,3 +4,9 @@ Solution.Core/obj
 Solution.PdfGenerator/obj
 Solution.Services/obj
 Solution.ValidationLibrary/obj
+Solution.ValidationLibrary/bin
+Solution.Services/bin
+Solution.PdfGenerator/bin
+Solution.DesktopApp/bin
+Solution.DataBase/bin
+Solution.Core/bin

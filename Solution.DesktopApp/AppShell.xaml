@@ -8,46 +8,31 @@
     Title="My App Name">
 
     <Shell.MenuBarItems>
+        
       <MenuBarItem Text="File">
         <MenuFlyoutItem Text="Exit"
-                            Command="{Binding ExitCommand}" />
+                        Command="{Binding ExitCommand}" />
       </MenuBarItem>
-      <MenuBarItem Text="Locations">
-        <MenuFlyoutSubItem Text="Change Location">
-          <MenuFlyoutItem Text="Redmond, USA"
-                                Command="{Binding ChangeLocationCommand}"
-                                CommandParameter="Redmond">
-            <MenuFlyoutItem.IconImageSource>
-              <FontImageSource Glyph="&#x25B6;"
-                                 FontFamily="Arial" />
-            </MenuFlyoutItem.IconImageSource>
-          </MenuFlyoutItem>
-          <MenuFlyoutItem Text="London, UK"
-                                Command="{Binding ChangeLocationCommand}"
-                                CommandParameter="London">
-            <MenuFlyoutItem.IconImageSource>
-              <FontImageSource Glyph="&#x23F8;"
-                                 FontFamily="Arial" />
-            </MenuFlyoutItem.IconImageSource>
-          </MenuFlyoutItem>
-          <MenuFlyoutItem Text="Berlin, DE"
-                                Command="{Binding ChangeLocationCommand}"
-                                CommandParameter="Berlin">
-            <MenuFlyoutItem.IconImageSource>
-              <FontImageSource Glyph="&#x23F9;"
-                                 FontFamily="Arial" />
-            </MenuFlyoutItem.IconImageSource>
-          </MenuFlyoutItem>
-        </MenuFlyoutSubItem>
-        <MenuFlyoutSeparator />
-        <MenuFlyoutItem Text="Add Location"
-                            Command="{Binding AddLocationCommand}" />
-        <MenuFlyoutItem Text="Edit Location"
-                            Command="{Binding EditLocationCommand}" />
-        <MenuFlyoutItem Text="Remove Location"
-                            Command="{Binding RemoveLocationCommand}" />
-      </MenuBarItem>
-      <MenuBarItem Text="View">
+
+        <MenuBarItem Text="Manager">
+            <MenuFlyoutSubItem Text="Manage competition">
+                <MenuFlyoutItem Text="Add competition"
+                                Command="{Binding AddCompetitionCommand}"/>
+
+                <MenuFlyoutItem Text="List competitions"
+                                Command="{Binding ListCompetitionCommand}"/>
+
+            </MenuFlyoutSubItem>
+            <MenuFlyoutSubItem Text="Manage competitors">
+                <MenuFlyoutItem Text="Add competitor"
+                                Command="{Binding AddCompetitorCommand}"/>
+
+                <MenuFlyoutItem Text="List competitors" 
+                                Command="{Binding ListCompetitorsCommand}"/>
+            </MenuFlyoutSubItem>
+        </MenuBarItem>
+
+        <MenuBarItem Text="View">
         <MenuFlyoutItem Text="Refresh"
                             Command="{Binding RefreshCommand}" />
         <MenuFlyoutItem Text="Change Theme"

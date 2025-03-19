@@ -10,3 +10,7 @@ global using System.Reflection;
 global using CommunityToolkit.Maui.Alerts;
 global using CommunityToolkit.Maui.Core;
 global using System.Runtime.InteropServices;
+global using CommunityToolkit.Mvvm.Input;
+global using Solution.Core.Extensions;
+global using CommunityToolkit.Mvvm.ComponentModel;
+global using Solution.DesktopApp.Views;

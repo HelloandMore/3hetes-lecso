@@ -1,10 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b1konmil\\Desktop\\net-maui\\00 - Base [with menu]\\",
+  "WorkspaceRootPath": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34ACEA40-D359-40FF-B9A4-434C0367D225}|Solution.ValidationLibrary\\Solution.ValidationLibrary.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\00 - base [with menu]\\solution.validationlibrary\\iobjectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34ACEA40-D359-40FF-B9A4-434C0367D225}|Solution.ValidationLibrary\\Solution.ValidationLibrary.csproj|solutionrelative:solution.validationlibrary\\iobjectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.desktopapp\\viewmodels\\competitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\viewmodels\\competitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.desktopapp\\views\\competitionmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\competitionmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.desktopapp\\views\\competitionmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\competitionmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.desktopapp\\viewmodels\\appshellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\viewmodels\\appshellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.desktopapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.database\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34ACEA40-D359-40FF-B9A4-434C0367D225}|Solution.ValidationLibrary\\Solution.ValidationLibrary.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.validationlibrary\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ACEA40-D359-40FF-B9A4-434C0367D225}|Solution.ValidationLibrary\\Solution.ValidationLibrary.csproj|solutionrelative:solution.validationlibrary\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.desktopapp\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.desktopapp\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34ACEA40-D359-40FF-B9A4-434C0367D225}|Solution.ValidationLibrary\\Solution.ValidationLibrary.csproj|c:\\users\\b1konmil\\desktop\\net-maui\\lecsofozo\\solution.validationlibrary\\validationrules\\maxvaluerule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ACEA40-D359-40FF-B9A4-434C0367D225}|Solution.ValidationLibrary\\Solution.ValidationLibrary.csproj|solutionrelative:solution.validationlibrary\\validationrules\\maxvaluerule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IObjectValidator.cs",
-              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\00 - Base [with menu]\\Solution.ValidationLibrary\\IObjectValidator.cs",
-              "RelativeDocumentMoniker": "Solution.ValidationLibrary\\IObjectValidator.cs",
-              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\00 - Base [with menu]\\Solution.ValidationLibrary\\IObjectValidator.cs",
-              "RelativeToolTip": "Solution.ValidationLibrary\\IObjectValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Title": "CompetitionManager.cs",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\ViewModels\\CompetitionManager.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\ViewModels\\CompetitionManager.cs",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\ViewModels\\CompetitionManager.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\ViewModels\\CompetitionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T06:20:34.109Z",
+              "WhenOpened": "2025-03-19T07:57:35.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompetitionManager.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\Views\\CompetitionManager.xaml.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\CompetitionManager.xaml.cs",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\Views\\CompetitionManager.xaml.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\CompetitionManager.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:55:50.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\AppShell.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T07:26:57.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShellViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\ViewModels\\AppShellViewModel.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\ViewModels\\AppShellViewModel.cs",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\ViewModels\\AppShellViewModel.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\ViewModels\\AppShellViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:18:27.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompetitionManager.xaml",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\Views\\CompetitionManager.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\CompetitionManager.xaml",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\Views\\CompetitionManager.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\CompetitionManager.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T07:23:46.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\Views\\HomePage.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T07:07:12.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DataBase\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Solution.DataBase\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DataBase\\GlobalUsings.cs",
+              "RelativeToolTip": "Solution.DataBase\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:05:06.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.ValidationLibrary\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Solution.ValidationLibrary\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.ValidationLibrary\\GlobalUsings.cs",
+              "RelativeToolTip": "Solution.ValidationLibrary\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:05:02.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MaxValueRule.cs",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.ValidationLibrary\\ValidationRules\\MaxValueRule.cs",
+              "RelativeDocumentMoniker": "Solution.ValidationLibrary\\ValidationRules\\MaxValueRule.cs",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.ValidationLibrary\\ValidationRules\\MaxValueRule.cs",
+              "RelativeToolTip": "Solution.ValidationLibrary\\ValidationRules\\MaxValueRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:05:49.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\ViewModels\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\ViewModels\\HomePageViewModel.cs",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\net-maui\\Lecsofozo\\Solution.DesktopApp\\ViewModels\\HomePageViewModel.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\ViewModels\\HomePageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:18:25.464Z",
               "EditorCaption": ""
             }
           ]
