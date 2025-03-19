@@ -3,19 +3,19 @@
 [Table("Location")]
 public class LocationEntity
 {
+    [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public uint Id { get; set; }
 
-    [Required]
-    public uint PostalCode { get; set; }
-
-    [Required]
-    public string City { get; set; }
 
     [Required]
     public string PublicPlace { get; set; }
 
     [Required]
     public string Adress { get; set; }
+
+    [ForeignKey("Competition")]
+    public uint CompetitionId { get; set; }
+    public virtual CompetitionEntity Competition { get; set; }
 
 }

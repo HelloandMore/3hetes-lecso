@@ -14,6 +14,8 @@ public class AppDbContext : DbContext
 
     public DbSet<TeamEntity> Teams { get; set; }
 
+    public DbSet<CityEntity> Cities { get; set; }
+
     static AppDbContext()
     {
         connectionString = GetConnectionString();

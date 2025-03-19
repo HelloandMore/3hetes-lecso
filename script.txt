@@ -1,18 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace Solution.Database.Migrations
 {
     /// <inheritdoc />
-    public partial class cities : Migration
+    public partial class city : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             var query = @$"
                 insert into
-                    [Location]
+                    [City]
                     ([PostalCode])
                     ([Name])
                 values
@@ -3387,7 +3387,9 @@ namespace Solution.Database.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            var query = $"truncate table [City]";
 
+            migrationBuilder.Sql(query);
         }
     }
 }

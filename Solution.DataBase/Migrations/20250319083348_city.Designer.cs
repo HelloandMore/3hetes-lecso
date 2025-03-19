@@ -12,8 +12,8 @@ using Solution.DataBase;
 namespace Solution.Database.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250319081031_cities")]
-    partial class cities
+    [Migration("20250319083348_city")]
+    partial class city
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,28 @@ namespace Solution.Database.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Solution.Database.Entities.CityEntity", b =>
+                {
+                    b.Property<long>("PostalCode")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("PostalCode"));
+
+                    b.Property<long>("LocationId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PostalCode");
+
+                    b.HasIndex("LocationId");
+
+                    b.ToTable("City");
+                });
 
             modelBuilder.Entity("Solution.Database.Entities.CompetitionEntity", b =>
                 {
@@ -68,11 +90,7 @@ namespace Solution.Database.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<long>("PostalCode")
+                    b.Property<long>("CompetitionId")
                         .HasColumnType("bigint");
 
                     b.Property<string>("PublicPlace")
@@ -80,6 +98,8 @@ namespace Solution.Database.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CompetitionId");
 
                     b.ToTable("Location");
                 });
@@ -161,6 +181,17 @@ namespace Solution.Database.Migrations
                     b.ToTable("Team");
                 });
 
+            modelBuilder.Entity("Solution.Database.Entities.CityEntity", b =>
+                {
+                    b.HasOne("Solution.Database.Entities.LocationEntity", "Location")
+                        .WithMany()
+                        .HasForeignKey("LocationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Location");
+                });
+
             modelBuilder.Entity("Solution.Database.Entities.CompetitionEntity", b =>
                 {
                     b.HasOne("Solution.Database.Entities.LocationEntity", "Location")
@@ -170,6 +201,17 @@ namespace Solution.Database.Migrations
                         .IsRequired();
 
                     b.Navigation("Location");
+                });
+
+            modelBuilder.Entity("Solution.Database.Entities.LocationEntity", b =>
+                {
+                    b.HasOne("Solution.Database.Entities.CompetitionEntity", "Competition")
+                        .WithMany()
+                        .HasForeignKey("CompetitionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Competition");
                 });
 
             modelBuilder.Entity("Solution.Database.Entities.MemberEntity", b =>

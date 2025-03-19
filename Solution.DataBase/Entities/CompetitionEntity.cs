@@ -2,7 +2,9 @@
 [Table("Competition")]
 public class CompetitionEntity
 {
+    [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
     public uint Id { get; set; }
 
     [StringLength(168)]

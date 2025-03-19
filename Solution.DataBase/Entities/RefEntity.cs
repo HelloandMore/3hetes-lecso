@@ -2,7 +2,9 @@
 [Table("Ref")]
 public class RefEntity
 {
+    [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
     public uint Id { get; set; }
 
     [Required]
