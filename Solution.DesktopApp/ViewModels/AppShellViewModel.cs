@@ -5,19 +5,36 @@ public partial class AppShellViewModel
 {
     public IAsyncRelayCommand ExitCommand => new AsyncRelayCommand(OnExitAsync);
 
-    public IAsyncRelayCommand AddNewMotorcycleCommand => new AsyncRelayCommand(OnAddNewMotorcycleAsync);
-    public IAsyncRelayCommand ListAllMotorcyclesCommand => new AsyncRelayCommand(OnListAllMotorcyclesAsync);
+    public IAsyncRelayCommand AddNewCompetition => new AsyncRelayCommand(OnAddNewCompetitionAsync);
+    public IAsyncRelayCommand ListAllCompetitions => new AsyncRelayCommand(OnListAllCompetitionsAsync);
+    public IAsyncRelayCommand AddNewTeam => new AsyncRelayCommand(OnAddNewTeamAsync);
+    public IAsyncRelayCommand ListTeams => new AsyncRelayCommand(OnListAllTeamsAsync);
 
 
-    private async Task OnExitAsync() => Application.Current.Quit();
+	private async Task OnExitAsync() => Application.Current.Quit();
 
-    private async Task OnAddNewMotorcycleAsync()
+
+    private async Task OnAddNewCompetitionAsync()
     {
         Shell.Current.ClearNavigationStack();
-    }
+        await Shell.Current.GoToAsync(ManageCompetitionViewModel.Name);
+	}
 
-    private async Task OnListAllMotorcyclesAsync()
+    private async Task OnListAllCompetitionsAsync()
     {
         Shell.Current.ClearNavigationStack();
-    }
+		await Shell.Current.GoToAsync(ListCompetitionsViewModel.Name);
+	}
+
+	private async Task OnAddNewTeamAsync()
+	{
+		Shell.Current.ClearNavigationStack();
+		await Shell.Current.GoToAsync(ManageTeamViewModel.Name);
+	}
+
+	private async Task OnListAllTeamsAsync()
+	{
+		Shell.Current.ClearNavigationStack();
+		await Shell.Current.GoToAsync(ListTeamsViewModel.Name);
+	}
 }

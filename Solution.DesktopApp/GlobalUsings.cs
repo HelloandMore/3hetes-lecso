@@ -13,3 +13,8 @@ global using Solution.DesktopApp.Configurations;
 global using Solution.DesktopApp.ViewModels;
 global using Solution.Services;
 global using System.Runtime.InteropServices;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;

@@ -1,5 +1,4 @@
-﻿
-namespace Solution.Database.Entities;
+﻿namespace Solution.Database.Entities;
 
 [Table("City")]
 [Index(nameof(Name), IsUnique = true)]

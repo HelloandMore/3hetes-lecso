@@ -6,8 +6,9 @@
              x:Class="Solution.DesktopApp.MainView">
 
     <Grid VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="Motorcycle Data Base" Style="{StaticResource PageTitle}" />
-        <Image Source="motorcycle.png" Aspect="AspectFit" Margin="100"/>
+        <Label Text="Lecsófőző database" Style="{StaticResource PageTitle}" />
+        <!--<Image Source="motorcycle.png" Aspect="AspectFit" Margin="100"/>-->
+        
     </Grid>
 
 </ContentPage>
