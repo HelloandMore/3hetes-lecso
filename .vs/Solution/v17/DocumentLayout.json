@@ -1,41 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\",
+  "WorkspaceRootPath": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Migrations\\20250319191452_city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Solution.DataBase\\Migrations\\20250319191452_city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Migrations\\20250319191436_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Solution.DataBase\\Migrations\\20250319191436_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\models\\membermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\membermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\06zal\\onedrive\\asztali g\u00E9p\\3hetes-lecso\\solution.database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Migrations\\20250319191247_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Solution.DataBase\\Migrations\\20250319191247_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\models\\refmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\refmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\06zal\\onedrive\\asztali g\u00E9p\\3hetes-lecso\\solution.database\\entities\\cityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\entities\\cityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\06zal\\onedrive\\asztali g\u00E9p\\3hetes-lecso\\solution.database\\entities\\locationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\entities\\locationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\06zal\\onedrive\\asztali g\u00E9p\\3hetes-lecso\\solution.database\\entities\\competitionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.database\\entities\\competitionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\entities\\competitionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\06zal\\onedrive\\asztali g\u00E9p\\3hetes-lecso\\solution.database\\entities\\refentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.database\\entities\\refentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\entities\\refentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.database\\entities\\memberentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\entities\\memberentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.database\\entities\\teamentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\entities\\teamentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,124 +46,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250319191452_city.cs",
-              "DocumentMoniker": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Migrations\\20250319191452_city.cs",
-              "RelativeDocumentMoniker": "Solution.DataBase\\Migrations\\20250319191452_city.cs",
-              "ToolTip": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Migrations\\20250319191452_city.cs",
-              "RelativeToolTip": "Solution.DataBase\\Migrations\\20250319191452_city.cs",
-              "ViewState": "AgIAAL4LAAAAAAAAAADwv0cNAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:14:52.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250319191436_init.cs",
-              "DocumentMoniker": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Migrations\\20250319191436_init.cs",
-              "RelativeDocumentMoniker": "Solution.DataBase\\Migrations\\20250319191436_init.cs",
-              "ToolTip": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Migrations\\20250319191436_init.cs",
-              "RelativeToolTip": "Solution.DataBase\\Migrations\\20250319191436_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:14:36.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20250319191247_test.cs",
-              "DocumentMoniker": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Migrations\\20250319191247_test.cs",
-              "RelativeDocumentMoniker": "Solution.DataBase\\Migrations\\20250319191247_test.cs",
-              "ToolTip": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Migrations\\20250319191247_test.cs",
-              "RelativeToolTip": "Solution.DataBase\\Migrations\\20250319191247_test.cs",
+              "Title": "CityModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\CityModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Models\\CityModel.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\CityModel.cs",
+              "RelativeToolTip": "Solution.Core\\Models\\CityModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:12:47.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAJMTAAAAAAAAAAAnwKoTAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-19T19:02:26.966Z",
+              "WhenOpened": "2025-03-20T08:32:45.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Solution.DataBase\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\AppDbContext.cs",
-              "RelativeToolTip": "Solution.DataBase\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "LocationModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\LocationModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Models\\LocationModel.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\LocationModel.cs",
+              "RelativeToolTip": "Solution.Core\\Models\\LocationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T18:14:37.896Z",
+              "WhenOpened": "2025-03-20T08:32:35.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CityEntity.cs",
-              "DocumentMoniker": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Entities\\CityEntity.cs",
-              "RelativeDocumentMoniker": "Solution.DataBase\\Entities\\CityEntity.cs",
-              "ToolTip": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Entities\\CityEntity.cs",
-              "RelativeToolTip": "Solution.DataBase\\Entities\\CityEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "CompetitionEntity.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\CompetitionEntity.cs",
+              "RelativeDocumentMoniker": "Solution.Database\\Entities\\CompetitionEntity.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\CompetitionEntity.cs",
+              "RelativeToolTip": "Solution.Database\\Entities\\CompetitionEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:51:27.78Z"
+              "WhenOpened": "2025-03-20T08:18:37.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LocationEntity.cs",
-              "DocumentMoniker": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Entities\\LocationEntity.cs",
-              "RelativeDocumentMoniker": "Solution.DataBase\\Entities\\LocationEntity.cs",
-              "ToolTip": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Entities\\LocationEntity.cs",
-              "RelativeToolTip": "Solution.DataBase\\Entities\\LocationEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "RefEntity.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\RefEntity.cs",
+              "RelativeDocumentMoniker": "Solution.Database\\Entities\\RefEntity.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\RefEntity.cs",
+              "RelativeToolTip": "Solution.Database\\Entities\\RefEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T07:42:28.745Z"
+              "WhenOpened": "2025-03-20T08:08:26.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\MemberModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Models\\MemberModel.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\MemberModel.cs",
+              "RelativeToolTip": "Solution.Core\\Models\\MemberModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:29:50.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "RefEntity.cs",
-              "DocumentMoniker": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Entities\\RefEntity.cs",
-              "RelativeDocumentMoniker": "Solution.DataBase\\Entities\\RefEntity.cs",
-              "ToolTip": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Entities\\RefEntity.cs",
-              "RelativeToolTip": "Solution.DataBase\\Entities\\RefEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TeamEntity.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\TeamEntity.cs",
+              "RelativeDocumentMoniker": "Solution.Database\\Entities\\TeamEntity.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\TeamEntity.cs",
+              "RelativeToolTip": "Solution.Database\\Entities\\TeamEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T17:05:38.853Z"
+              "WhenOpened": "2025-03-20T08:20:41.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CompetitionEntity.cs",
-              "DocumentMoniker": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Entities\\CompetitionEntity.cs",
-              "RelativeDocumentMoniker": "Solution.DataBase\\Entities\\CompetitionEntity.cs",
-              "ToolTip": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.DataBase\\Entities\\CompetitionEntity.cs",
-              "RelativeToolTip": "Solution.DataBase\\Entities\\CompetitionEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RefModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\RefModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Models\\RefModel.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\RefModel.cs",
+              "RelativeToolTip": "Solution.Core\\Models\\RefModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:51:35.212Z"
+              "WhenOpened": "2025-03-20T07:32:56.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MemberEntity.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\MemberEntity.cs",
+              "RelativeDocumentMoniker": "Solution.Database\\Entities\\MemberEntity.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\MemberEntity.cs",
+              "RelativeToolTip": "Solution.Database\\Entities\\MemberEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:24:35.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeamModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\TeamModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Models\\TeamModel.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\TeamModel.cs",
+              "RelativeToolTip": "Solution.Core\\Models\\TeamModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:30:37.337Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -7,6 +7,8 @@ public class RefEntity
 
     public uint Id { get; set; }
 
+    public string PublicId { get; set; }
+
     [Required]
     [StringLength(168)]
     public string Name { get; set; }

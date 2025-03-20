@@ -12,7 +12,7 @@ public class LocationEntity
     public string PublicPlace { get; set; }
 
     [Required]
-    public string Adress { get; set; }
+    public string Address { get; set; }
 
     public virtual ICollection<CityEntity> Cities { get; set; }
 }
