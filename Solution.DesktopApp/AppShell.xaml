@@ -20,8 +20,17 @@
     </Shell.Resources>
 
     <Shell.MenuBarItems>
+        <MenuBarItem Text="File">
+            <MenuFlyoutItem Text="Exit" Command="{Binding ExitCommand}"/>
+        </MenuBarItem>
+        <MenuBarItem Text="Competition">
+            <MenuFlyoutItem Text="Add competition" Command="{Binding AddNewCompetition}"/>
+            <MenuFlyoutItem Text="List competitions" Command="{Binding ListCompetitions}"/>
+            <MenuFlyoutItem Text="New team" Command="{Binding AddNewTeam}"/>
+            <MenuFlyoutItem Text="List teams" Command="{Binding ListTeams}"/>
+        </MenuBarItem>
 
-      </Shell.MenuBarItems>
+    </Shell.MenuBarItems>
 
     <ShellContent Style="{StaticResource ShellContentStyle}"
                   ContentTemplate="{DataTemplate local:MainView}"
