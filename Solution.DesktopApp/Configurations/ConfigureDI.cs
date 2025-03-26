@@ -1,4 +1,6 @@
-﻿using Solution.Services.Services;
+﻿using Solution.Core.Interfaces;
+using Solution.DesktopApp.Views;
+using Solution.Services.Services;
 
 namespace Solution.DesktopApp.Configurations;
 
@@ -11,7 +13,11 @@ public static class ConfigureDI
         builder.Services.AddTransient<MainView>();
 
         builder.Services.AddScoped<IGoogleDriveService, GoogleDriveService> ();
+		builder.Services.AddTransient<ICompetitionService, CompetitionService>();
 
-        return builder;
+		builder.Services.AddTransient<ManageCompetitionViewModel>();
+		builder.Services.AddTransient<CompetitionListView>();
+
+		return builder;
 	}
 }

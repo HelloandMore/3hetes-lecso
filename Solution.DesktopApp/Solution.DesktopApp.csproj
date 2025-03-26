@@ -122,6 +122,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Component\CompetitionListComponent.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\CompetitionListView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\ManageCompetitionView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

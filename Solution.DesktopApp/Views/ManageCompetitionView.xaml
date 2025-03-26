@@ -40,21 +40,44 @@
                     Command="{Binding ImageSelectCommand}" />
         </VerticalStackLayout>
         <VerticalStackLayout Grid.Column="1">
-            <Label Text="{Binding Title}" Style="{StaticResource PageTitle}"/>
+            <Label Text="{Binding Title}" Style="{StaticResource PageTitle}" />
 
             <VerticalStackLayout Style="{StaticResource FormLineContainer}">
-                <Label Text="Teams (multiple choice)"/>
-                <CollectionView ItemsSource="{Binding Teams}"
-                                SelectionMode="Multiple"
-                                SelectedItems="{Binding Teams}">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <Grid>
-                                <Label Text="{Binding Name}" />
-                            </Grid>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
+                <Label Text="Name"/>
+                <Entry Text="{Binding Name.Value}">
+                    <Entry.Behaviors>
+                        <toolkit:EventToCommandBehavior EventName="TextChanged" Command="{Binding NameValidationCommand}" />
+                    </Entry.Behaviors>
+                </Entry>
+                <Label Text="{Binding Name.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                       Style="{StaticResource ValidationErrorLabelStyle}"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Style="{StaticResource FormLineContainer}">
+
+                <Label Text="Date" />
+                <DatePicker Date="{Binding Date.Value}">
+                    <DatePicker.Behaviors>
+                        <toolkit:EventToCommandBehavior EventName="DateSelected" Command="{Binding DateIndexChangedCommand}" />
+                    </DatePicker.Behaviors>
+                </DatePicker>
+                <Label Text="{Binding Date.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                       Style="{StaticResource ValidationErrorLabelStyle}"/>
+                
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Style="{StaticResource FormLineContainer}">
+                <Label Text="Location" />
+                <Picker ItemsSource="{Binding Locations}">
+                    <Picker.Behaviors>
+                        <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged" Command="{Binding LocationIndexChangedCommand}" />
+                    </Picker.Behaviors>
+                </Picker>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Style="{StaticResource FormLineContainer}">
+                <Button Text="Submit" Command="{Binding SubmitCommand}" WidthRequest="250"/>
             </VerticalStackLayout>
 
         </VerticalStackLayout>
