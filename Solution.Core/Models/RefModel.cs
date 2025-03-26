@@ -4,7 +4,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Solution.Core.Models
 {
-    public class RefModel
+    public partial class RefModel
     {
         public string Id { get; set; }
 

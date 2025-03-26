@@ -1,10 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\",
+  "WorkspaceRootPath": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\06zal\\onedrive\\asztali g\u00E9p\\3hetes-lecso\\solution.core\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\interfaces\\irefmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\interfaces\\irefmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\models\\refmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\refmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\interfaces\\icompetitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\interfaces\\icompetitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\models\\competitionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\competitionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.core\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.desktopapp\\configurations\\configuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\configurations\\configuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256048E6-59B0-4F60-9263-51C605A5DB61}|Solution.Services\\Solution.Services.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.services\\competitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{256048E6-59B0-4F60-9263-51C605A5DB61}|Solution.Services\\Solution.Services.csproj|solutionrelative:solution.services\\competitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1polzal\\desktop\\3hetes-lecso\\solution.database\\entities\\competitionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\entities\\competitionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +46,23 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         },
@@ -29,14 +73,107 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TeamModel.cs",
-              "DocumentMoniker": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.Core\\Models\\TeamModel.cs",
-              "RelativeDocumentMoniker": "Solution.Core\\Models\\TeamModel.cs",
-              "ToolTip": "C:\\Users\\06zal\\OneDrive\\Asztali g\u00E9p\\3hetes-lecso\\Solution.Core\\Models\\TeamModel.cs",
-              "RelativeToolTip": "Solution.Core\\Models\\TeamModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Title": "IRefModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Interfaces\\IRefModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Interfaces\\IRefModel.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Interfaces\\IRefModel.cs*",
+              "RelativeToolTip": "Solution.Core\\Interfaces\\IRefModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T07:30:37.337Z",
+              "WhenOpened": "2025-03-26T07:05:40.964Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\RefModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Models\\RefModel.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\RefModel.cs",
+              "RelativeToolTip": "Solution.Core\\Models\\RefModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:06:42.29Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICompetitionService.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Interfaces\\ICompetitionService.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Interfaces\\ICompetitionService.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Interfaces\\ICompetitionService.cs",
+              "RelativeToolTip": "Solution.Core\\Interfaces\\ICompetitionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:04:48.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompetitionModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\CompetitionModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Models\\CompetitionModel.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\CompetitionModel.cs",
+              "RelativeToolTip": "Solution.Core\\Models\\CompetitionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:03:09.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CityModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\CityModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Models\\CityModel.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\CityModel.cs",
+              "RelativeToolTip": "Solution.Core\\Models\\CityModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:03:08.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigureDI.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Configurations\\ConfigureDI.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Configurations\\ConfigureDI.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Configurations\\ConfigureDI.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\Configurations\\ConfigureDI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T06:55:54.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CompetitionEntity.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\CompetitionEntity.cs",
+              "RelativeDocumentMoniker": "Solution.Database\\Entities\\CompetitionEntity.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Database\\Entities\\CompetitionEntity.cs",
+              "RelativeToolTip": "Solution.Database\\Entities\\CompetitionEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T06:34:52.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompetitionService.cs",
+              "DocumentMoniker": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Services\\CompetitionService.cs",
+              "RelativeDocumentMoniker": "Solution.Services\\CompetitionService.cs",
+              "ToolTip": "C:\\Users\\b1polzal\\Desktop\\3hetes-lecso\\Solution.Services\\CompetitionService.cs",
+              "RelativeToolTip": "Solution.Services\\CompetitionService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T06:33:04.791Z",
               "EditorCaption": ""
             }
           ]

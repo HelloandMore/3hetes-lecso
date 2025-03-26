@@ -1,10 +1,14 @@
 ﻿namespace Solution.Core.Models
 {
-    public class TeamModel
+    public partial class TeamModel
     {
         public string Id { get; set; }
 
+        public string PublicId { get; set; }
+
         public ValidatableObject<string> Name { get; set; }
+
+        public ValidatableObject<uint> Points { get; set; }
 
         public ValidatableObject<CompetitionModel> Competition { get; set; }
 
@@ -16,6 +20,7 @@
             this.Competition = new ValidatableObject<CompetitionModel>();
             this.Members = new ValidatableObject<List<MemberModel>>();
             this.Members.Value = new List<MemberModel>();
+            this.Points = new ValidatableObject<uint>();
 
             AddValidators();
         }
@@ -26,6 +31,7 @@
             this.Name.Value = entity.Name;
             this.Competition.Value = new CompetitionModel(entity.Competition);
             this.Members.Value = entity.Members.Select(m => new MemberModel(m)).ToList();
+            this.Points.Value = entity.Points;
         }
 
         public TeamEntity ToEntity()
@@ -35,7 +41,8 @@
                 PublicId = Id,
                 Name = Name.Value,
                 CompetitionId = uint.Parse(Competition.Value.Id),
-                Members = Members.Value.Select(m => m.ToEntity()).ToList()
+                Members = Members.Value.Select(m => m.ToEntity()).ToList(),
+                Points = Points.Value
             };
         }
 
@@ -43,6 +50,7 @@
         {
             entity.PublicId = Id;
             entity.Name = Name.Value;
+            entity.Points = Points.Value;
             entity.CompetitionId = uint.Parse(Competition.Value.Id);
             entity.Members = Members.Value.Select(m => m.ToEntity()).ToList();
         }
@@ -57,6 +65,11 @@
             this.Members.Validations.Add(new MaxMembersRule<MemberModel>
             {
                 ValidationMessage = "A team can have a maximum of 10 members"
+            });
+
+            this.Points.Validations.Add(new IsNotNullOrEmptyRule<uint>
+            {
+                ValidationMessage = "A team must have points"
             });
         }
     }

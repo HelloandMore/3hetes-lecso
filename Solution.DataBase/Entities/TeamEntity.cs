@@ -11,6 +11,9 @@ public class TeamEntity
     [StringLength(100)]
     public string Name { get; set; }
 
+    [Required]
+    public uint Points { get; set; }
+
     [ForeignKey("Competition")]
     public uint CompetitionId { get; set; }
     public virtual CompetitionEntity Competition { get; set; }
