@@ -16,7 +16,7 @@ public class CompetitionEntity
     public string Name { get; set; }
 
     [Required]
-    public DateTime Date { get; set; }
+    public uint Date { get; set; }
 
     [ForeignKey("Location")]
     public uint LocationId { get; set; }

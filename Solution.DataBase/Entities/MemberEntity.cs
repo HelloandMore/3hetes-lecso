@@ -7,6 +7,8 @@ public class MemberEntity
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public uint Id { get; set; }
 
+    public string PublicId { get; set; }
+
     [Required]
     [StringLength(100)]
     public string Name { get; set; }
