@@ -8,6 +8,8 @@ namespace Solution.Core.Models
     {
         public string Id { get; set; }
 
+        public string PublicId { get; set; }
+
         public ValidatableObject<string> Name { get; set; }
 
         public ValidatableObject<string> PhoneNumber { get; set; }
