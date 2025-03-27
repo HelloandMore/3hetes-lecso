@@ -25,7 +25,7 @@
         </MenuBarItem>
         <MenuBarItem Text="Competition">
             <MenuFlyoutItem Text="Add competition" Command="{Binding AddNewCompetition}"/>
-            <MenuFlyoutItem Text="List competitions" Command="{Binding ListCompetitions}"/>
+            <MenuFlyoutItem Text="List competitions" Command="{Binding ListAllCompetitions}"/>
             <MenuFlyoutItem Text="New team" Command="{Binding AddNewTeam}"/>
             <MenuFlyoutItem Text="List teams" Command="{Binding ListTeams}"/>
         </MenuBarItem>

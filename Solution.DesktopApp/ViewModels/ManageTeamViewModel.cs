@@ -4,32 +4,33 @@ using Solution.Core.Models;
 namespace Solution.DesktopApp.ViewModels;
 
 [ObservableObject]
-public partial class ManageCompetitionViewModel(AppDbContext dbContext, ICompetitionService competitionService) : CompetitionModel()
+public partial class ManageTeamViewModel(AppDbContext dbContext, ITeamService teamService) : TeamModel()
 {
 	#region life cycle commands
 	public IAsyncRelayCommand AppearingCommand => new AsyncRelayCommand(OnAppearingkAsync);
 	public IAsyncRelayCommand DisappearingCommand => new AsyncRelayCommand(OnDisappearingAsync);
 	public IAsyncRelayCommand ImageSelectCommand => new AsyncRelayCommand(OnImageSelectAsync);
 	public IAsyncRelayCommand SubmitCommand => new AsyncRelayCommand(OnSubmitAsync);
+
 	#endregion
 
 	#region Validation commands
-	public IRelayCommand LocationIndexChangedCommand => new RelayCommand(() => this.Location.Validate());
-	public IRelayCommand DateIndexChangedCommand => new RelayCommand(() => this.Date.Validate());
-	//public IRelayCommand TeamsSelectionChangedCommand => new RelayCommand(() => this.Teams.Validate());
+	public IRelayCommand PointsValidationCommand => new RelayCommand(() => this.Points.Validate());
 	public IRelayCommand NameValidationCommand => new RelayCommand(() => this.Name.Validate());
 
 	#endregion
 
-	#region Properties
 	[ObservableProperty]
 	private string title;
 
 	[ObservableProperty]
-	private List<LocationModel> locations = [];
+	private IList<LocationModel> locations = [];
 
 	[ObservableProperty]
-	private List<TeamModel> teams = [];
+	private IList<TeamModel> teams = [];
+
+	[ObservableProperty]
+	private IList<CompetitionModel> competitions = [];
 
 	[ObservableProperty]
 	private ImageSource image;
@@ -38,42 +39,39 @@ public partial class ManageCompetitionViewModel(AppDbContext dbContext, ICompeti
 
 	private delegate Task ButtonActionDelagate();
 	private ButtonActionDelagate asyncButtonAction;
-	#endregion
 
-	#region Constructors
 	public async void ApplyQueryAttributes(IDictionary<string, object> query)
 	{
 		await Task.Run(LoadLocationsAsync);
 
-		bool hasValue = query.TryGetValue("Competition", out object result);
+		bool hasValue = query.TryGetValue("Team", out object result);
 
 		if (!hasValue)
 		{
 			asyncButtonAction = OnSaveAsync;
-			Title = "Add new competition";
+			Title = "Add new team";
 			return;
 		}
 
-		CompetitionModel competition = result as CompetitionModel;
+		TeamModel team = result as TeamModel;
 
-		this.Id = competition.Id;
-		this.Name.Value = competition.Name.Value;
-		this.Date.Value = competition.Date.Value;
-		this.Location.Value = competition.Location.Value;
-		//this.ImageId = competition.ImageId;
-		//this.WebContentLink = competition.WebContentLink;
+		this.Id = team.Id;
+		this.Name.Value = team.Name.Value;
+		this.
+		//this.ImageId = team.ImageId;
+		//this.WebContentLink = team.WebContentLink;
 
-		//if (!string.IsNullOrEmpty(competition.WebContentLink))
+		//if (!string.IsNullOrEmpty(team.WebContentLink))
 		//{
 		//	Image = new UriImageSource
 		//	{
-		//		Uri = new Uri(competition.WebContentLink),
+		//		Uri = new Uri(team.WebContentLink),
 		//		CacheValidity = new TimeSpan(10, 0, 0, 0)
 		//	};
 		//}
 
 		asyncButtonAction = OnUpdateAsync;
-		Title = "Update competition";
+		Title = "Update team";
 	}
 
 	private async Task OnImageSelectAsync()
@@ -98,9 +96,9 @@ public partial class ManageCompetitionViewModel(AppDbContext dbContext, ICompeti
 
 		//await UploaImageAsync();
 
-		var result = await competitionService.UpdateAsync(this);
+		var result = await teamService.UpdateAsync(this);
 
-		var message = result.IsError ? result.FirstError.Description : "Competition updated.";
+		var message = result.IsError ? result.FirstError.Description : "Team updated.";
 		var title = result.IsError ? "Error" : "Information";
 
 		await Application.Current.MainPage.DisplayAlert(title, message, "OK");
@@ -115,8 +113,8 @@ public partial class ManageCompetitionViewModel(AppDbContext dbContext, ICompeti
 
 		//await UploadImageAsync();
 
-		var result = await competitionService.CreateAsync(this);
-		var message = result.IsError ? result.FirstError.Description : "Competition saved.";
+		var result = await teamService.CreateAsync(this);
+		var message = result.IsError ? result.FirstError.Description : "Team saved.";
 		var title = result.IsError ? "Error" : "Information";
 
 		if (!result.IsError)
@@ -127,30 +125,20 @@ public partial class ManageCompetitionViewModel(AppDbContext dbContext, ICompeti
 		await Application.Current.MainPage.DisplayAlert(title, message, "OK");
 	}
 
-	private async Task LoadLocationsAsync()
+	private async Task OnSubmitAsync() => await asyncButtonAction();
+
+	private async Task LoadCompetitions()
 	{
-		Locations = await dbContext.Locations.AsNoTracking()
-											 .OrderBy(x => x.PublicPlace)
-											 .Select(x => new LocationModel(x))
+		Competitions = await dbContext.Competitions.AsNoTracking()
+											 .OrderBy(x => x.Id)
+											 .Select(x => new CompetitionModel(x))
 											 .ToListAsync();
 	}
 
-	private async Task LoadTeamsAsync()
-	{
-		Teams = await dbContext.Teams.AsNoTracking()
-									 .OrderBy(x => x.Name)
-									 .Select(x => new TeamModel(x))
-									 .ToListAsync();
-	}
-
-	private async Task OnSubmitAsync() => await asyncButtonAction();
-
 	private void ClearForm()
 	{
-		this.Date.Value = null;
-		this.Location.Value = null;
+		
 		this.Name.Value = null;
-		this.Teams.Clear();
 	}
 
 	private bool IsFormValid()
@@ -161,5 +149,4 @@ public partial class ManageCompetitionViewModel(AppDbContext dbContext, ICompeti
 
 		return this.Date.IsValid && this.Location.IsValid && this.Name.IsValid;
 	}
-	#endregion
 }

@@ -17,6 +17,8 @@ public static class ConfigureDI
 
 		builder.Services.AddTransient<ManageCompetitionViewModel>();
 		builder.Services.AddTransient<CompetitionListView>();
+		builder.Services.AddTransient<CompetitionListViewModel>();
+
 
 		return builder;
 	}

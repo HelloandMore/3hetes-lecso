@@ -43,14 +43,19 @@
             <Label Text="{Binding Title}" Style="{StaticResource PageTitle}" />
 
             <VerticalStackLayout Style="{StaticResource FormLineContainer}">
-                <Label Text="Name"/>
-                <Entry Text="{Binding Name.Value}">
-                    <Entry.Behaviors>
-                        <toolkit:EventToCommandBehavior EventName="TextChanged" Command="{Binding NameValidationCommand}" />
-                    </Entry.Behaviors>
-                </Entry>
-                <Label Text="{Binding Name.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
-                       Style="{StaticResource ValidationErrorLabelStyle}"/>
+                <Label Text="Participating teams"/>
+                <CollectionView ItemsSource="{Binding Teams}" SelectionMode="Multiple">
+                    <CollectionView.Behaviors>
+                        <toolkit:EventToCommandBehavior EventName="SelectionChanged" Command="{Binding TeamsSelectionChangedCommand}" />
+                    </CollectionView.Behaviors>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Label Text="{Binding Name}" />
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </VerticalStackLayout>
 
             <VerticalStackLayout Style="{StaticResource FormLineContainer}">
@@ -72,6 +77,15 @@
                 <Picker ItemsSource="{Binding Locations}">
                     <Picker.Behaviors>
                         <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged" Command="{Binding LocationIndexChangedCommand}" />
+                    </Picker.Behaviors>
+                </Picker>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Style="{StaticResource FormLineContainer}">
+                <Label Text="Participating teams"/>
+                <Picker ItemsSource="{Binding Teams}">
+                    <Picker.Behaviors>
+                        <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged" Command="{Binding TeamIndexChangedCommand}" />
                     </Picker.Behaviors>
                 </Picker>
             </VerticalStackLayout>

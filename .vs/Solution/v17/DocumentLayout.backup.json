@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\3hetes-lecso\\solution.desktopapp\\views\\competitionlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\competitionlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\3hetes-lecso\\solution.desktopapp\\views\\managecompetitionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\managecompetitionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\3hetes-lecso\\solution.desktopapp\\views\\competitionlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\competitionlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\3hetes-lecso\\solution.desktopapp\\viewmodels\\managecompetitionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\viewmodels\\managecompetitionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\3hetes-lecso\\solution.desktopapp\\viewmodels\\appshellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\viewmodels\\appshellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|c:\\users\\b1konmil\\desktop\\3hetes-lecso\\solution.core\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88013A1C-1958-47CF-86F3-57996343D1B0}|Solution.Core\\Solution.Core.csproj|solutionrelative:solution.core\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1konmil\\desktop\\3hetes-lecso\\solution.desktopapp\\views\\managecompetitionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\managecompetitionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,67 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManageCompetitionViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\ViewModels\\ManageCompetitionViewModel.cs",
-              "RelativeDocumentMoniker": "Solution.DesktopApp\\ViewModels\\ManageCompetitionViewModel.cs",
-              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\ViewModels\\ManageCompetitionViewModel.cs",
-              "RelativeToolTip": "Solution.DesktopApp\\ViewModels\\ManageCompetitionViewModel.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAqwHgAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TeamModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\TeamModel.cs",
+              "RelativeDocumentMoniker": "Solution.Core\\Models\\TeamModel.cs",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.Core\\Models\\TeamModel.cs",
+              "RelativeToolTip": "Solution.Core\\Models\\TeamModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:17:10.923Z",
+              "WhenOpened": "2025-03-27T07:50:48.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CompetitionListView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Views\\CompetitionListView.xaml.cs",
-              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\CompetitionListView.xaml.cs",
-              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Views\\CompetitionListView.xaml.cs",
-              "RelativeToolTip": "Solution.DesktopApp\\Views\\CompetitionListView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ManageCompetitionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\ViewModels\\ManageCompetitionViewModel.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\ViewModels\\ManageCompetitionViewModel.cs",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\ViewModels\\ManageCompetitionViewModel.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\ViewModels\\ManageCompetitionViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:15:45.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppShellViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\ViewModels\\AppShellViewModel.cs",
-              "RelativeDocumentMoniker": "Solution.DesktopApp\\ViewModels\\AppShellViewModel.cs",
-              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\ViewModels\\AppShellViewModel.cs",
-              "RelativeToolTip": "Solution.DesktopApp\\ViewModels\\AppShellViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T07:58:05.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ManageCompetitionView.xaml",
-              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Views\\ManageCompetitionView.xaml",
-              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\ManageCompetitionView.xaml",
-              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Views\\ManageCompetitionView.xaml",
-              "RelativeToolTip": "Solution.DesktopApp\\Views\\ManageCompetitionView.xaml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAowCoAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-26T07:56:55.032Z",
+              "WhenOpened": "2025-03-27T07:30:01.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CompetitionListView.xaml",
-              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Views\\CompetitionListView.xaml",
-              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\CompetitionListView.xaml",
-              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Views\\CompetitionListView.xaml",
-              "RelativeToolTip": "Solution.DesktopApp\\Views\\CompetitionListView.xaml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwDkAAABIAAAAAAAAAA==",
+              "Title": "ManageCompetitionView.xaml",
+              "DocumentMoniker": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Views\\ManageCompetitionView.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\ManageCompetitionView.xaml",
+              "ToolTip": "C:\\Users\\b1konmil\\Desktop\\3hetes-lecso\\Solution.DesktopApp\\Views\\ManageCompetitionView.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\ManageCompetitionView.xaml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAhwDMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-26T07:56:38.526Z",
+              "WhenOpened": "2025-03-26T07:56:55.032Z",
               "EditorCaption": ""
             }
           ]
